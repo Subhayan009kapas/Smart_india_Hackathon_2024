@@ -1,0 +1,501 @@
+.add-student-con .heading{
+  font-size: 30px;
+
+ height: 200px;
+ width: 300px;
+ margin-top: 200px;
+ background-color: #c399f9;
+ margin-left: 25vw;
+ border-radius: 20px;
+ box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+ text-align: center;
+ color: #15172b;
+ font-size: 40px;
+ cursor: pointer;
+ padding: 20px;
+ font-weight: bold;
+ box-shadow: 5px 5px 10px rgb(0, 0, 0) , inset -5px ,-5px , -10px rgb(63, 14, 76);
+    box-shadow:5px 5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66) ;
+
+}
+
+
+
+
+.add-con{
+          height: 100vh;
+          width: 100vw;
+          background-color:#3d3d3d78 ;
+          backdrop-filter: blur(10px);
+          /* display: flex; */
+          /* justify-content: center;
+          align-items: center; */
+          /* position: fixed; */
+          /* top:0px;
+          left:0px; */
+          display: none;
+          /* margin: 0; */
+
+}
+.input-field{
+  position: relative;
+  margin-top: 25px;
+}
+.input-field input{
+  width: 20vw;
+  height:5vh;
+  border-radius: 6px;
+  font-size: 17px;;
+  padding: 0 15px;
+  border: 2px solid #484646;
+  outline: none;
+  color: rgb(181, 174, 174);
+  background-color: rgb(40, 40, 51);
+  /* box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.5);  */
+
+}
+.input-field label{
+  position: absolute;
+  top: 50%;
+  left:15px;
+  transform: translateY(-50%);
+  color: #f7f2f2;
+  font-size: 17px;
+  pointer-events: none;
+  transition: .1s;
+
+}
+input:focus{
+  border: 1px solid rgb(145,105,237);  
+  /* border: 2px solid rgb(154,41,177); */
+
+  
+
+}
+input:focus ~ label,
+input:valid ~ label{
+  top: 0;
+  font-size: 16px;
+  padding: 0 8px;
+  background-color: rgb(99, 68, 171);
+  border-radius: 10px;
+
+}
+
+.whole-form-container{
+  /* background-color: #085530; */
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top:0px ;
+  left: 0px ;
+  backdrop-filter: blur(10px)
+  
+}
+.student-add-form{
+  background-color: #15172b;
+  height: 85vh; 
+  width: 50vw;
+  overflow: auto;
+  margin: 0 auto;
+  border-radius: 1.75rem;
+  margin-top: 20px;
+
+  position: relative;
+  /* overflow: hidden; */
+  border: 2px solid white;
+
+
+}
+
+
+
+.form-con{
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+
+ 
+}
+.input-field select{
+  width: 20vw;
+  height:5vh;
+  border-radius: 6px;
+  font-size: 18px;;
+  padding: 0 15px;
+
+  outline: none;
+  color: rgb(239, 232, 232);
+  margin-top: 0px; 
+  background-color: rgb(40, 40, 51);
+  /* box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.5);  */
+  
+}
+#address{
+  margin-left: 3.5vw;
+}
+#address input{
+  width: 43vw;
+ 
+}
+.profile-pic {
+  width: 30vW;
+  position: relative;
+  left: 300px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  
+}
+.profile-pic img{
+  height: 50px;
+  width: 50px;
+}
+.profile-pic input{
+ width: 30vw;
+  height: 45px;
+  border-radius: 6px;
+  font-size: 18px;;
+  padding: 0 15px;
+  border: 2px solid #fff;
+  outline: none;
+  color: rgb(10, 11, 11);
+  background-color: rgb(154, 146, 146);
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.5); 
+}
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.submit button{
+  height: 5vh;
+  width: 20vw;
+  background-color:#1dc071;
+ 
+ border-radius: 1rem;
+ font-weight: bold;
+ text-shadow: 2px 2px 4px #15172b;
+ font-size: 20px;
+ transition: transform ease 1s;
+
+
+}
+.submit button:active{
+
+  background-color: #90e5bc;
+  transform: translateY(-2px);
+
+}
+
+.student img{
+  height: 70px;
+
+}
+.university img{
+  height: 70px;
+}
+.right-arrow img{
+  height: 70px;
+}
+.form-header{
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 180px;
+
+}
+
+.form-header .image{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
+}
+.off_card{
+ position: relative;
+ left: 80px;
+ font-size: 30px;
+ background-color: #f0551d;
+ height: 38px;
+ width: 35px;
+ text-align: center;
+ transition: transform  ease 1s;
+ border-radius: 5px;
+}
+
+.off_card:hover{
+  transform: scale(1.1);
+}
+#profile-url{
+  display: flex;
+ margin-left: 3.5vw;
+ 
+}
+#profile-url input{
+  width: 43vw;
+  height: 5vh;
+}
+/* Card container styling */
+.student-data-confirm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position: relative;
+bottom: 30vh;
+right: 3vw;
+}
+
+.student-data-confirm-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+  position: relative;
+  border-radius: 1.75rem;
+  box-shadow: 0px 0px 10px;
+}
+
+/* Checkmark animation */
+.student-data-checkmark-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.student-data-checkmark {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: student-data-scaleUp 0.4s ease-out;
+}
+
+.student-data-checkmark-container img {
+  height: 80px;
+}
+
+/* Success message styling */
+.student-data-message h2 {
+  color: #28a745;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.student-data-message p {
+  color: #555;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+@media(max-width:768px){
+  .add{
+
+   
+  }
+  .add-student-con .heading{
+    height: 15vh;
+    width: 35vw;
+    font-size: 20px;
+  }
+  .add-con{
+    height: 80vh;
+    width: 40vw;
+    background-color:#3d3d3d78 ;
+    backdrop-filter: blur(10px);
+   
+    display: none;
+    /* margin: 0; */
+
+
+}
+
+  .whole-form-container{
+    /* background-color: #085530; */
+    height: auto; 
+    width: 100vw;
+    position: fixed;
+    top:0px ;
+    left: 0px ;
+    backdrop-filter: blur(10px);
+    
+    
+    
+    
+    
+  }
+
+
+
+  .student-add-form{
+    background-color: #15172b;
+    height: 100vh; 
+    width: 90%;
+    overflow: scroll;
+    margin: 0 auto;
+    border-radius: 1.75rem;
+    margin-top: 10px;
+  
+    position: relative;
+    left: 1vw;
+    /* overflow: hidden; */
+    border: 2px solid white;
+    overflow:auto;
+   
+    
+  
+  
+  }
+  .form-header{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+  
+  }
+  .off_card{
+    position: relative;
+    left: 20px;
+    font-size: 25px;
+    background-color: #f0551d;
+    height: 34px;
+    width: 35px;
+    text-align: center;
+    transition: transform  ease 1s;
+    border-radius: 10px;
+   }
+   .form-header .image{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 40px;
+  
+  }
+  .student img{
+    height: 50px;
+  
+  }
+  .university img{
+    height: 40px;
+  }
+  .right-arrow img{
+    height: 40px;
+  }
+  .form-con{
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+    flex-wrap: wrap;
+    overflow: scroll;
+   
+  }
+  
+  .input-field{
+    position: relative;
+    margin-top: 10px;
+  }
+  .input-field input{
+    width: 80vw;
+    height:5vh;
+    border-radius: 6px;
+    font-size: 17px;;
+    padding: 0 15px;
+    border: 2px solid #484646;
+    outline: none;
+    color: rgb(181, 174, 174);
+    background-color: rgb(40, 40, 51);
+    /* box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.5);  */
+  
+  }
+  .input-field select{
+    width: 80vw;
+    height:5vh;
+    border-radius: 6px;
+    font-size: 18px;;
+    padding: 0 15px;
+  
+    outline: none;
+    color: rgb(239, 232, 232);
+   
+    background-color: rgb(40, 40, 51);
+    /* box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.5);  */
+    
+  }
+
+  #address{
+    margin-left: 9vw;
+  }
+  #address input{
+    width: 80vw;
+   
+  }
+  #profile-url{
+    display: flex;
+   margin-left: 9vw;
+   
+  }
+  #profile-url input{
+    width: 80vw;
+    height: 5vh;
+  }
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  .submit button{
+    height: 5vh;
+    width: 40vw;
+    background-color:#1dc071;
+   
+   border-radius: 1rem;
+   font-weight: bold;
+   text-shadow: 2px 2px 4px #15172b;
+   font-size: 18px;
+   transition: transform ease 1s;
+  
+  
+  }
+  input:focus{
+    border: 1px solid rgb(145,105,237);  
+    /* border: 2px solid rgb(154,41,177); */
+  
+    
+  
+  }
+  input:focus ~ label,
+  input:valid ~ label{
+    top: 0;
+    font-size: 12px;
+    padding: 0 8px;
+    background-color: rgb(99, 68, 171);
+    border-radius: 10px;
+  
+  }
+
+  .student-data-confirm-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  position: relative;
+  bottom: 30vh;
+  right: 10vw;
+  }
+
+
+
+}

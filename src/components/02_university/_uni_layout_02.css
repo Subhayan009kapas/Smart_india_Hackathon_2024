@@ -1,0 +1,28 @@
+#uni_head{
+          font-size: 2rem;
+      }
+      .container{
+          height: 100vh;
+          width: 100vw;
+          display: flex;
+          flex-direction: row;
+          margin: 0 3vw;
+      }
+      .right-container{
+          width: 80vw;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-left: 20vw;
+      }
+      #content{
+          width: 100%;
+          /* height: 100vh; */
+          background-color:transparent;
+          margin:  0 auto;
+          display: flex;
+          flex-direction: column;
+      }
+      .footer{
+          width: 80%;
+      }

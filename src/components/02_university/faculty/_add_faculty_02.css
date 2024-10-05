@@ -1,0 +1,396 @@
+/* Base styles for larger screens */
+.faculty-add-con .faculty-heading {
+  font-size: 30px;
+  height: 200px;
+  width: 300px;
+  margin-top: 200px;
+  background-color: #c399f9;
+  margin-left: 25vw;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #15172b;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 20px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0), inset -5px -5px -10px rgb(63, 14, 76);
+}
+ .faculty-form-header{
+          display: flex;
+          justify-content: space-evenly;
+          margin-left: 180px;
+}
+.faculty-off-card{
+          position: relative;
+          left: 80px;
+         margin-top: 5px;
+          font-size: 30px;
+          background-color: #f0551d;
+          height: 38px;
+          width: 35px;
+          text-align: center;
+          transition: transform  ease 1s;
+          border-radius: 5px;
+} 
+.faculty-whole-form-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #3d3d3d78;
+  backdrop-filter: blur(10px);
+  display: none;
+}
+.faculty-con2{
+  position: relative;
+  bottom: 4vh;;
+}
+
+.faculty-input-field {
+  position: relative;
+  margin-top: 25px;
+}
+
+.faculty-input-field input,
+.faculty-input-field select {
+  width: 20vw;
+  height: 5vh;
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 0 15px;
+  border: 2px solid #484646;
+  outline: none;
+  color: rgb(181, 174, 174);
+  background-color: rgb(40, 40, 51);
+}
+
+.faculty-input-field label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #f7f2f2;
+  font-size: 17px;
+  pointer-events: none;
+  transition: 0.1s;
+}
+
+input:focus {
+  border: 1px solid rgb(145, 105, 237);
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: 0;
+  font-size: 16px;
+  padding: 0 8px;
+  background-color: rgb(99, 68, 171);
+  border-radius: 10px;
+}
+
+.faculty-add-form {
+  background-color: #15172b;
+  height: 70vh;
+  width: 50vw;
+  overflow: auto;
+  margin: 0 auto;
+  border-radius: 1.75rem;
+  margin-top: 50px;
+  position: relative;
+  border: 2px solid white;
+}
+
+.faculty-form-con {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+#faculty_address input,
+#faculty_profile-url input {
+  width: 43vw;
+  
+}
+#faculty_address,#faculty_profile-url{
+  margin-left: 70px;
+}
+.faculty-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.faculty-image img {
+  height: 70px;
+  width: 70px;
+}
+
+.faculty-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.faculty-submit button {
+  height: 5vh;
+  width: 20vw;
+  background-color: #1dc071;
+  border-radius: 1rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #15172b;
+  font-size: 20px;
+  transition: transform ease 1s;
+}
+
+.faculty-submit button:active {
+  background-color: #90e5bc;
+  transform: translateY(-2px);
+}
+.faculty-off-card {
+          position: relative;
+          top: 10px;
+}
+.faculty-off-card button {
+  font-size: 30px;
+  background-color: #f0551d;
+  height: 38px;
+  width: 35px;
+  text-align: center;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: transform ease 1s;
+  border-radius: 5px;
+  
+}
+
+.faculty-off-card button:hover {
+  transform: scale(1.1);
+}
+
+/* Card container styling */
+.facultyadd-confirm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 35vh;
+  left: 5vw;
+}
+
+.facultyadd-confirm-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+  position: relative;
+  border-radius: 1.75rem;
+  box-shadow: 0px 0px 10px;
+}
+
+/* Checkmark animation */
+.facultyadd-checkmark-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.facultyadd-checkmark {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: submit-confirm-scaleUp 0.4s ease-out;
+}
+
+.facultyadd-checkmark-container img {
+  height: 80px;
+}
+
+/* Success message styling */
+.facultyadd-message h2 {
+  color: #28a745;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.facultyadd-message p {
+  color: #555;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+ .faculty-heading {
+    width: 35vw;
+    font-size: 20px;
+    height: 15vh;
+   
+  }
+  .faculty-form-header{
+          display: flex;
+    
+          align-items: center;
+          justify-content: space-evenly;
+          margin-left: 10px;
+}
+.faculty-off-card{
+          position: relative;
+          left: 15px;
+          margin-bottom: 30px;
+          font-size: 25px;
+          background-color: #f0551d;
+          height: 33px;
+          width: 33px;
+          text-align: center;
+          transition: transform  ease 1s;
+          border-radius: 10px;
+}
+
+  .faculty-add-form {
+    width: 85vw;
+    height: auto;
+    padding: 15px;
+  }
+
+  .faculty-form-con {
+          display: flex;
+        
+          align-items: center;
+          padding: 0px;
+          flex-wrap: wrap;
+          overflow: scroll;
+        }
+        .faculty-con2{
+          position: relative;
+          bottom: 1vh;;
+        }
+        
+  .faculty-input-field input,
+  .faculty-input-field select {
+    width: 80vw;
+    height: 4.5vh;
+    font-size: 15px;
+    
+    
+  }
+  .faculty-input-field select{
+          overflow: hidden;
+       
+  }
+  .faculty-input-field {
+          position: relative;
+          margin-top: 15px;
+        }
+
+ 
+  #faculty_address input,
+#faculty_profile-url input {
+  width: 80vw;
+  
+}
+#faculty_address,#faculty_profile-url{
+  margin-left: 10px;
+}
+
+
+  .faculty-submit button {
+          height: 5vh;
+          width: 5vw;
+          background-color: #1dc071;
+          border-radius: 1rem;
+          font-weight: bold;
+          text-shadow: 2px 2px 4px #15172b;
+          font-size: 20px;
+          transition: transform ease 1s;
+        }
+       .faculty-university{
+        height: 50px;
+       }
+       
+}
+
+@media (max-width: 480px) {
+  .faculty-add-con .faculty-heading {
+    width: 50vw;
+    font-size: 20px;
+    height: 120px;
+    margin-left: 10vw;
+    overflow-x: hidden;
+    
+  }
+
+  .faculty-add-form {
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    overflow: scroll;
+    margin-top: 3vh;
+  }
+
+  .faculty-form-con {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .faculty-input-field input,
+  .faculty-input-field select {
+          width: 80vw;
+          height:5vh;
+          border-radius: 6px;
+          font-size: 17px;;
+          padding: 0 15px;
+          border: 2px solid #484646;
+          outline: none;
+          color: rgb(181, 174, 174);
+          background-color: rgb(40, 40, 51);
+          
+  }
+
+  #address input,
+  #profile-url input {
+    width: 80vw;
+    position: relative;
+    right: 5vw;
+  }
+
+  .faculty-submit button {
+          height: 5vh;
+          width: 40vw;
+  }
+  .faculty-image {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          gap: 1rem;
+          margin-left: 40px;  
+  }
+
+  .faculty-image img {
+    height: 50px;
+    width: 50px;
+  }
+  .faculty-whole-form-container {
+          height: 100vh;
+          width: 100vw;
+          background-color: #3d3d3d78;
+          backdrop-filter: blur(10px);
+          display: none;
+          position: fixed;
+          top:0px ;
+          left: 0px ;
+        }
+        .facultyadd-confirm-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          top: 30vh;
+          left: 0vw;
+        }
+}

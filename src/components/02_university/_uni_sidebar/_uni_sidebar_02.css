@@ -1,0 +1,71 @@
+.sidenav{
+  margin-top: 4vh;
+  height: 92vh;
+  width:15vw;
+  background: linear-gradient(145deg,  #a082f3,#6944cd, #6944cd , #6944cd ,#a08adc);
+  /* background-color: #aea7c0; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-wrap: wrap ;
+  gap:1rem;
+  border-radius: 1rem;
+  position: fixed;
+  box-shadow:5px 5px 10px rgb(0, 0, 0),-5px -5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66),inset 5px 5px 10px rgb(48, 14, 66) ;
+}
+.imagecontainer{
+  height: 5rem;
+  width: 5rem;
+  background:linear-gradient(135deg, #422c7e,#6944cd);
+  margin: 0 auto;
+  border-radius:1.2rem ;
+  margin-top: 2rem;
+  /* overflow: hidden; */
+  /* align-content: center; */
+  /* box-shadow:2px 2px 10px rgb(44, 14, 54), inset -5px -5px 10px rgb(48, 14, 66),inset 5px 5px 10px rgb(48, 14, 66) ; */
+
+}
+#university_img{
+  height: 4rem;
+  width: 4rem;
+  margin:.3rem auto;
+  text-shadow: 2px 2px 2px black;
+
+}
+.hr{
+  width: 80%;
+  margin: 0 ;
+}
+.nav-itmes{
+  display: flex;
+  flex-direction: column;
+  /* background-color: #ab9cd5; */
+  margin-left: 1rem;
+}
+
+
+.ff{
+  font-size: .8rem;
+  padding: .5rem;
+  width:10rem;
+  font-weight: 700;
+  background-color: #584296;
+  border-radius: .8rem;
+  margin: .2rem;
+  box-shadow: 2px 2px 5px black,inset -2px -2px 5px black;
+  align-content: center;
+  text-align: center;
+  transition: .3s all;
+  &:hover{
+  transform: scale(.95);
+  background-color: #947ed1;
+  /* color: #000000; */
+  box-shadow: inset -2px -2px 2px black;
+}
+}
+.label{
+  font-size: 1rem;
+  width: 100%;
+  font-weight: 700;
+}

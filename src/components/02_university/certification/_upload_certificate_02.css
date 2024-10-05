@@ -1,0 +1,228 @@
+.certifiacte-upload-page{
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+         
+          background-color:#3d3d3d78 ;
+          padding: 20px;
+          min-height: 100vh;
+          position: fixed;
+          left: 0px;
+          top: 0px;
+          backdrop-filter: blur(10px);
+          overflow: scroll;
+         margin-bottom: 100px;
+}
+.upload-certifiacte-icon{
+          font-size: 30px;
+
+          height: 200px;
+          width: 300px;
+          margin-top: 200px;
+          background-color: #c399f9;
+          margin-left: 25vw;
+          border-radius: 20px;
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+          text-align: center;
+          color: #15172b;
+          font-size: 40px;
+          cursor: pointer;
+          padding: 20px;
+          font-weight: bold;
+          box-shadow: 5px 5px 10px rgb(0, 0, 0) , inset -5px ,-5px , -10px rgb(63, 14, 76);
+             box-shadow:5px 5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66) ;    
+}
+.upload-certificate-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          cursor: pointer;
+        }
+        
+        .upload-certificate-card {
+          background-color: #15172b;
+          border-radius: 12px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          padding: 40px;
+          width: 100%;
+          height: 65vh;
+          max-width: 700px;
+          transition: all 0.3s ease-in-out;
+          border-left: 4px solid #6200ea;
+          
+        }
+        .upload-certificate-card:hover{
+          transform: translateY(-8px);
+          box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+          border-left: 4px solid #3700b3;
+        }
+        
+        .upload-certificate-form-header {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+        }
+        .upload-certificate-form-header .image{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          gap: 2vw;
+          position: relative;
+          left: 4vw;
+        }
+        
+        .upload-certificate-title {
+          font-size: 24px;
+          color: #333;
+        }
+        #upload-certificate-category{
+          height:5.5vh ;
+          background-color: rgb(40, 40, 51);
+          padding: 10px;
+          border-radius: 4px;
+          font-size: 16px;
+          border: 1px solid #ccc;
+          margin-top: 1vh;
+          
+        }
+        
+        .upload-certificate-form {
+          margin-top: 20px;
+        }
+        
+        .form-group {
+          margin-bottom: 20px;
+        }
+        
+        .form-group h4 {
+          margin-bottom: 8px;
+          color: #555;
+        }
+        
+        input[type="text"],
+        input[type="date"],
+        select,
+        input[type="file"] {
+          width: 100%;
+          height:5.5vh;
+          border-radius: 6px;
+          font-size: 17px;;
+          padding: 0 15px;
+          border: 2px solid #484646;
+          outline: none;
+          color: rgb(181, 174, 174);
+          background-color: rgb(40, 40, 51);
+          margin-top: 1vh;
+        }
+        
+        input[type="text"]:focus,
+        input[type="date"]:focus,
+        select:focus,
+        input[type="file"]:focus {
+          border-color: #007bff;
+          outline: none;
+        }
+        
+        .certificate-submit-btn {
+          background-color:#1dc071;
+          color: #ffffff;
+          font-size: 1.2rem;
+          padding: 15px 20px;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          transition: background-color 0.3s ease, transform 0.3s ease;
+          width: 100%;
+          max-width: 250px;
+          align-self: center;
+          font-weight: 600;
+          text-shadow: 2px 2px 4px #15172b;
+          position: relative;
+          left:9vw;
+          top: 1.5vh;
+        }
+        
+        .submit-btn:hover {
+          background-color: #0056b3;
+        }
+        
+        .upload-certificate-confirm-card-container {
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;
+        }
+        
+        .upload-certificate-confirm-card {
+          background-color: #dff0d8;
+          border: 1px solid #d6e9c6;
+          color: #3c763d;
+          border-radius: 4px;
+          padding: 15px;
+          display: flex;
+          align-items: center;
+        }
+        
+        .upload-certificate-confirm-checkmark-container {
+          margin-right: 10px;
+        }
+        
+        .upload-certificate-confirm-message {
+          font-size: 16px;
+        }
+        /* Card container styling */
+.upload_certificate-confirm-card-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          top: 15vh;/* Adjust as needed */
+           /* Adjust as needed */
+        }
+        
+        .upload_certificate-confirm-card {
+          background-color: white;
+          padding: 40px;
+          border-radius: 15px;
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          width: 350px;
+          position: relative;
+          border-radius: 1.75rem;
+          box-shadow: 0px 0px 10px;
+        }
+        
+        /* Checkmark animation */
+        .upload_certificate-confirm-checkmark-container {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 20px;
+        }
+        
+        .upload_certificate-confirm-checkmark-gif {
+          width: 100px; /* Adjust as needed */
+          height: 100px; /* Adjust as needed */
+          position: relative;
+          animation: upload_certificate-scaleUp 0.4s ease-out; /* Animation for scaling */
+        }
+        
+        .upload_certificate-confirm-checkmark-container img {
+          height: 80px; /* Adjust as needed */
+        }
+        
+        /* Success message styling */
+        .upload_certificate-confirm-message h2 {
+          color: #28a745; /* Success color */
+          font-size: 30px; /* Adjust as needed */
+          margin-bottom: 10px; /* Adjust as needed */
+        }
+        
+        .upload_certificate-confirm-message p {
+          color: #555; /* Text color */
+          font-size: 18px; /* Adjust as needed */
+          font-weight: bold; /* Bold text */
+        }
+        
+        

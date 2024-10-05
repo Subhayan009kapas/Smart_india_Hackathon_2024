@@ -1,0 +1,17 @@
+#main-banner-container{
+  min-height: 25vh;
+  width: 70vw;
+  background: linear-gradient(140deg,#8d76cd,#6944cd,#6944cd,#6944cd,#6944cd);
+  border-radius: .7rem;
+  /* margin-left: 20vw; */
+  border: 2px solid #131313;
+  box-shadow:5px 5px 10px rgb(0, 0, 0),-5px -5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66),inset 5px 5px 10px rgb(48, 14, 66) ;
+  display: flex;
+  /* flex-direction: row-rever */
+  align-items: center;
+  justify-content:space-around;
+  }
+#banner-image{
+  height: 4rem;
+  width: 4rem;
+}

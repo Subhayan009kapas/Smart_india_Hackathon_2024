@@ -1,0 +1,30 @@
+#parties{
+          display: flex;
+          margin:8rem auto;
+          width: 70%;
+      }
+      .client_container{
+          height: 7rem;
+          width: 12rem;
+          background:linear-gradient(135deg,#b09ce8,#6944cd );
+          /* background-color:#6944cd; */
+          margin: 2rem auto;
+          text-align: center;
+          align-content: center;
+          font-size: 1.5rem;
+          font-weight: 700;
+          padding: 2rem;
+          text-shadow: 2px 2px 2px black;
+          border-radius: 1rem;
+          box-shadow:5px 5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66) ;
+          transition: .3s all;
+          &:hover{
+              transform: scale(1.05);
+              background:linear-gradient(180deg,#beadec,#8868e1 );
+              font-size: 1.7rem;
+          }
+      }
+      h1{
+          text-align: center;
+          /* font-weight:700; */
+      }
