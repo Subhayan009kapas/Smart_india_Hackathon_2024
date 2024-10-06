@@ -89,7 +89,7 @@ input:valid ~ label {
 
 .faculty-add-form {
   background-color: #15172b;
-  height: 70vh;
+  height: 75vh;
   width: 50vw;
   overflow: auto;
   margin: 0 auto;
@@ -97,6 +97,12 @@ input:valid ~ label {
   margin-top: 50px;
   position: relative;
   border: 2px solid white;
+  transition: all .5s ease;
+}
+.faculty-add-form:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  border-left: 4px solid #3700b3;
 }
 
 .faculty-form-con {
@@ -104,6 +110,9 @@ input:valid ~ label {
   justify-content: space-evenly;
   align-items: center;
   padding: 10px;
+}
+.faculty-form-con:hover {
+ 
 }
 
 #faculty_address input,
@@ -227,9 +236,24 @@ input:valid ~ label {
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
  .faculty-heading {
-    width: 35vw;
-    font-size: 20px;
-    height: 15vh;
+  width: 180px;
+          
+
+  height: 130px;
+ 
+  margin-top: 200px;
+  background-color: #c399f9;
+  margin-left: 25vw;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #15172b;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 20px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0) , inset -5px ,-5px , -10px rgb(63, 14, 76);
+     box-shadow:5px 5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66) ; 
    
   }
   .faculty-form-header{

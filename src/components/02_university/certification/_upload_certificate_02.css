@@ -4,6 +4,7 @@
           display: flex;
           flex-direction: column;
           align-items: center;
+          
          
           background-color:#3d3d3d78 ;
           padding: 20px;
@@ -14,6 +15,7 @@
           backdrop-filter: blur(10px);
           overflow: scroll;
          margin-bottom: 100px;
+         overflow-x: hidden;
 }
 .upload-certifiacte-icon{
           font-size: 30px;
@@ -224,5 +226,54 @@
           font-size: 18px; /* Adjust as needed */
           font-weight: bold; /* Bold text */
         }
+        .certificate img{
+          height: 60px;
+          
+        }
+        .certificate-right-arrow img{
+          height: 60px;
+        }
+        .certificate-university img{
+          height: 55px;
+          position: relative;
+          bottom: 10px;
+        }
+        @media(max-width: 768px){
+          .upload-certificate-card {
+                    padding: 20px;
+                    max-width: 100%;
+                    margin-top: 2vh;
+                    margin-right: 1px;
+                  
+                  }
+                  input[type="text"],
+        input[type="date"],
+        select,
+        input[type="file"] {
+          width: 100%;
+          height:6vh;
         
+        }
+        .upload-certifiacte-icon{
+          width: 180px;
+          
+
+          height: 130px;
+         
+          margin-top: 200px;
+          background-color: #c399f9;
+          margin-left: 25vw;
+          border-radius: 20px;
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+          text-align: center;
+          color: #15172b;
+          font-size: 25px;
+          cursor: pointer;
+          padding: 20px;
+          font-weight: bold;
+          box-shadow: 5px 5px 10px rgb(0, 0, 0) , inset -5px ,-5px , -10px rgb(63, 14, 76);
+             box-shadow:5px 5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66) ; 
+        }
+      
+        }
         

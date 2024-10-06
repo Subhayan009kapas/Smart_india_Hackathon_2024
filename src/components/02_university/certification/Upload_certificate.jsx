@@ -68,22 +68,22 @@ const Upload_certificate = () => {
             className="upload-certificate-container"
             onClick={() => setIsVisible(true)}
           >
-            <h1>Upload Certificate</h1>
+            
           </div>
           {isCardVisible && (
             <div className="upload-certificate-card">
               <div className="upload-certificate-form-header">
                 <div className="image">
-                  <div className="right-arrow">
+                  <div className="certificate">
                     <img
                       src="https://cdn-icons-png.flaticon.com/128/6703/6703900.png"
                       border="0"
                     />
                   </div>
-                  <div className="right-arrow">
+                  <div className="certificate-right-arrow">
                     <img src="https://i.ibb.co/5c9RpMD/right-arrow.png" />
                   </div>
-                  <div className="university">
+                  <div className="certificate-university">
                     <img src="https://i.ibb.co/1nJZg0T/university-building.png" />
                   </div>
                 </div>
