@@ -97,12 +97,6 @@ input:valid ~ label {
   margin-top: 50px;
   position: relative;
   border: 2px solid white;
-  transition: all .5s ease;
-}
-.faculty-add-form:hover{
-  transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-  border-left: 4px solid #3700b3;
 }
 
 .faculty-form-con {
@@ -110,9 +104,6 @@ input:valid ~ label {
   justify-content: space-evenly;
   align-items: center;
   padding: 10px;
-}
-.faculty-form-con:hover {
- 
 }
 
 #faculty_address input,
