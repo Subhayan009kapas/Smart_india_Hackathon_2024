@@ -135,6 +135,7 @@ function AddFaculty() {
                        value={facultyDetails.stream}
                        onChange={changeInputValue}
                      >
+                      <option>Stream</option>
                        <option>CSE</option>
                        <option>ECE</option>
                        <option>EE</option>
@@ -197,6 +198,7 @@ function AddFaculty() {
                        value={facultyDetails.gender}
                        onChange={changeInputValue}
                      >
+                      <option>Gender</option>
                        <option>Male</option>
                        <option>Female</option>
                      </select>

@@ -1,0 +1,10 @@
+
+body {
+          margin: 0;
+          overflow: hidden; /* Prevent scrollbars */
+        }
+        
+        canvas {
+          display: block; /* Prevent scrollbars from appearing */
+          pointer-events: none; /* Allow clicks to pass through to other elements */
+        }

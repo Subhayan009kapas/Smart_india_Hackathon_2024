@@ -142,6 +142,7 @@ function Add_student() {
                   <select  name="stream"   
                    onChange={handleInputChange}
                    value={StudentData.stream} >
+                     <option>Stream</option>
                     <option>CSE</option>
                     <option>ECE</option>
                     <option>EE</option>
@@ -202,6 +203,7 @@ function Add_student() {
                   <select  name="degree"    
                   onChange={handleInputChange}
                   value={StudentData.degree} >
+                     <option> Degree</option>
                     <option>B.Tech</option>
                     <option>BCA</option>
                     <option>BBA</option>
@@ -238,6 +240,7 @@ function Add_student() {
                   <select name="gender"    
                   onChange={handleInputChange}
                   value={StudentData.gender} >
+                     <option>Gender</option>
                     <option>Male</option>
                     <option>Female</option>
                   </select>
