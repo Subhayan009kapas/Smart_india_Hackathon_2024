@@ -16,9 +16,7 @@ function Uni_layout() {
              <Uni_banner/>
              <div id="content"> 
                 <Outlet/>
-                <div class= "footer">
-                  this is a footer 
-                </div>
+               
              </div>
           
           </div>

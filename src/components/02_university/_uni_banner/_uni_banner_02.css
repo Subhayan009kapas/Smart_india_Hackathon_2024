@@ -1,4 +1,4 @@
-#main-banner-container{
+#Uni_main-banner-container{
   min-height: 25vh;
   width: 70vw;
   background: linear-gradient(140deg,#8d76cd,#6944cd,#6944cd,#6944cd,#6944cd);
@@ -6,12 +6,72 @@
   /* margin-left: 20vw; */
   border: 2px solid #131313;
   box-shadow:5px 5px 10px rgb(0, 0, 0),-5px -5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66),inset 5px 5px 10px rgb(48, 14, 66) ;
-  display: flex;
+  
   /* flex-direction: row-rever */
+  display: flex;
   align-items: center;
-  justify-content:space-around;
+  justify-content: space-around;
+  overflow-x: hidden;
+
+  
+
   }
 #banner-image{
   height: 4rem;
   width: 4rem;
+}
+#Uni_main-banner-container .img{
+  height: 6rem;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+#Uni_main-banner-container img{
+  height: 6rem;;
+  box-shadow: 0px 10px 20px black;
+}
+.uni_details h1{
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 0px 5px 20px black;
+}
+.uni_details h2{
+  font-size: 1.5rem;
+  margin-left: 1vw;
+}
+@media(max-width:768px){
+  #Uni_main-banner-container{
+    min-height: 20vh;
+    width: 70vw;
+    background: linear-gradient(140deg,#8d76cd,#6944cd,#6944cd,#6944cd,#6944cd);
+    border-radius: .7rem;
+    /* margin-left: 20vw; */
+    border: 2px solid #131313;
+    box-shadow:5px 5px 10px rgb(0, 0, 0),-5px -5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66),inset 5px 5px 10px rgb(48, 14, 66) ;
+    flex-wrap: wrap;
+   
+    }
+    #Uni_main-banner-container img{
+      height: 3.5rem;;
+      box-shadow: 0px 5px 10px black;
+    }
+    #Uni_main-banner-container .img{
+      height: 5rem;
+ 
+       display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+    .uni_details h1{
+      font-size: 1rem;
+      font-weight: 500;
+      text-shadow: 0px 5px 10px black;
+    }
+    .uni_details h2{
+      text-align: center;
+      font-size: 0.9rem;
+      margin-left: 1vw;
+      padding: 10px;
+    }
 }

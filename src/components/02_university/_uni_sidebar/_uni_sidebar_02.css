@@ -15,8 +15,8 @@
   box-shadow:5px 5px 10px rgb(0, 0, 0),-5px -5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66),inset 5px 5px 10px rgb(48, 14, 66) ;
 }
 .imagecontainer{
-  height: 5rem;
-  width: 5rem;
+  height: 7rem;
+  width: 7rem;
   background:linear-gradient(135deg, #422c7e,#6944cd);
   margin: 0 auto;
   border-radius:1.2rem ;
@@ -26,9 +26,9 @@
   /* box-shadow:2px 2px 10px rgb(44, 14, 54), inset -5px -5px 10px rgb(48, 14, 66),inset 5px 5px 10px rgb(48, 14, 66) ; */
 
 }
-#university_img{
-  height: 4rem;
-  width: 4rem;
+.imagecontainer img{
+  height: 6rem;
+  width: 6rem;
   margin:.3rem auto;
   text-shadow: 2px 2px 2px black;
 
@@ -46,13 +46,16 @@
 
 
 .ff{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
   font-size: .8rem;
   padding: .5rem;
-  width:10rem;
+  width:12rem;
   font-weight: 700;
   background-color: #584296;
   border-radius: .8rem;
-  margin: .2rem;
+  margin: .4rem;
   box-shadow: 2px 2px 5px black,inset -2px -2px 5px black;
   align-content: center;
   text-align: center;
@@ -63,9 +66,68 @@
   /* color: #000000; */
   box-shadow: inset -2px -2px 2px black;
 }
+.nav-icon{
+  font-size: 1.5rem;
+  
+ }
 }
 .label{
   font-size: 1rem;
   width: 100%;
   font-weight: 700;
+}
+@media(max-width:768px){
+ .inner-txt{
+  display: none;
+ }
+ .nav-icon{
+  font-size: xx-large;
+  
+ }
+ .sidenav{
+  width: 22vw;
+  height: 85vh;
+  overflow-x: hidden;
+ }
+ .ff{
+  position: relative;
+  right: 4vw;
+  width: 4.5rem;
+  
+ }
+ .label{
+  font-size: 0.9rem;
+  width: 100%;
+  font-weight: 700;
+ 
+}
+.hr{
+  width: 60%;
+  margin: 0 ;
+}
+.nav-itmes{
+  display: flex;
+  flex-direction: column;
+  /* background-color: #ab9cd5; */
+  margin-left: 1rem;
+}
+.imagecontainer{
+  height: 4rem;
+  width: 4rem;
+  background:linear-gradient(135deg, #422c7e,#6944cd);
+  margin: 3vw;
+  border-radius:1.2rem ;
+  margin-top: 2rem;
+  /* overflow: hidden; */
+  /* align-content: center; */
+  /* box-shadow:2px 2px 10px rgb(44, 14, 54), inset -5px -5px 10px rgb(48, 14, 66),inset 5px 5px 10px rgb(48, 14, 66) ; */
+
+}
+.imagecontainer img{
+  height: 3rem;
+  width: 3rem;
+  margin:.3rem auto;
+  text-shadow: 2px 2px 2px black;
+
+}
 }

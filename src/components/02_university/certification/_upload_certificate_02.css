@@ -18,23 +18,24 @@
          overflow-x: hidden;
 }
 .upload-certifiacte-icon{
-          font-size: 30px;
+  font-size: 30px;
 
-          height: 200px;
-          width: 300px;
-          margin-top: 200px;
-          background-color: #c399f9;
-          margin-left: 25vw;
-          border-radius: 20px;
-          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-          text-align: center;
-          color: #15172b;
-          font-size: 40px;
-          cursor: pointer;
-          padding: 20px;
-          font-weight: bold;
-          box-shadow: 5px 5px 10px rgb(0, 0, 0) , inset -5px ,-5px , -10px rgb(63, 14, 76);
-             box-shadow:5px 5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66) ;    
+  height: 200px;
+  width: 300px;
+  margin-top: 200px;
+  background-color: #c399f9;
+  margin-left: 25vw;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #15172b;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 20px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0) , inset -5px ,-5px , -10px rgb(63, 14, 76);
+     box-shadow:5px 5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66) ;
+ 
 }
 .upload-certificate-container {
           display: flex;
@@ -255,25 +256,25 @@
         
         }
         .upload-certifiacte-icon{
-          width: 180px;
-          
+  font-size: 30px;
 
-          height: 130px;
-         
-          margin-top: 200px;
-          background-color: #c399f9;
-          margin-left: 25vw;
-          border-radius: 20px;
-          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-          text-align: center;
-          color: #15172b;
-          font-size: 25px;
-          cursor: pointer;
-          padding: 20px;
-          font-weight: bold;
-          box-shadow: 5px 5px 10px rgb(0, 0, 0) , inset -5px ,-5px , -10px rgb(63, 14, 76);
-             box-shadow:5px 5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66) ; 
-        }
+  height: 120px;
+  width: 160px;
+  margin-top: 200px;
+  background-color: #c399f9;
+  margin-left: 25vw;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #15172b;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 20px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0) , inset -5px ,-5px , -10px rgb(63, 14, 76);
+     box-shadow:5px 5px 10px rgb(0, 0, 0) ,inset -5px -5px 10px rgb(48, 14, 66) ;
+ 
+}
       
         }
         

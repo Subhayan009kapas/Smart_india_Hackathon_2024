@@ -45,7 +45,7 @@
   width: 20vw;
   height:5vh;
   border-radius: 6px;
-  font-size: 17px;;
+  font-size: 17px;
   padding: 0 15px;
   border: 2px solid #484646;
   outline: none;
@@ -100,10 +100,10 @@ input:valid ~ label{
   margin: 0 auto;
   border-radius: 1.75rem;
   margin-top: 20px;
-
   position: relative;
   /* overflow: hidden; */
   border: 2px solid white;
+  transition: all 0.5s ease;
 
 
 }
