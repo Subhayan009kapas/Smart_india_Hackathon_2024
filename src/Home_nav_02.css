@@ -1,0 +1,77 @@
+/* General Styles */
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: 'Arial', sans-serif;
+        }
+        
+        /* Navbar Styles */
+        .home-nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #6944cd; /* Your theme color */
+          padding: 15px 30px;
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Smooth box shadow */
+          position: sticky;
+          top: 0;
+          z-index: 1000;
+        }
+        
+        .home-nav-logo img {
+          width: 120px; /* Adjust the logo size */
+          height: auto;
+        }
+        
+        /* Connect Button Styles */
+        .home-nav-connect-button {
+          padding: 10px 35px;
+          background-color: #b83607; /* Gradient or theme-based button */
+          border: none;
+          border-radius: 20px;
+          color: rgb(235, 228, 228);
+          font-weight: bold;
+          cursor: pointer;
+          transition: background-color 0.3s ease, transform 0.3s ease;
+          box-shadow: 0px 10px 30px black;
+        }
+        
+        .home-nav-connect-button:hover {
+          background-color: #dd4416; /* Slightly darker hover effect */
+          transform: scale(1.05); /* Scale effect on hover */
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+          .home-nav {
+            padding: 10px 20px;
+          }
+        
+          .home-nav-logo img {
+            width: 100px;
+          }
+        
+          .home-nav-connect-button {
+            padding: 8px 16px;
+          }
+        }
+        
+        @media (max-width: 480px) {
+          .home-nav {
+            padding: 10px;
+          }
+        
+          .home-nav-logo img {
+            width: 80px;
+          }
+        
+          .home-nav-connect-button {
+            padding: 6px 12px;
+            font-size: 14px;
+          }
+        }
+        
