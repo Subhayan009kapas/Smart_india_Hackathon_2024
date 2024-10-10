@@ -43,7 +43,7 @@ import Password from "./components/01_student/password/Password";
 import Payment from "./components/01_student/payment/Payment";
 import Routine from "./components/01_student/routine/Routine";
 import Student_detail from "./components/01_student/student_detail/Student_detail";
-import WebGLBackground from "./WebGLBackground";
+
 
 function App() {
   const router = createBrowserRouter(
@@ -102,7 +102,7 @@ function App() {
   );
   return (
     <>
-   
+    
       <RouterProvider router={router} />
     </>
   );
