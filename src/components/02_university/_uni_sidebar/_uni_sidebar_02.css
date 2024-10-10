@@ -51,7 +51,7 @@
   justify-content: space-evenly;
   font-size: .8rem;
   padding: .5rem;
-  width:12rem;
+  width:11rem;
   font-weight: 700;
   background-color: #584296;
   border-radius: .8rem;
@@ -60,6 +60,9 @@
   align-content: center;
   text-align: center;
   transition: .3s all;
+  position: relative;
+  left: 1.5rem;
+  
   &:hover{
   transform: scale(.95);
   background-color: #947ed1;
@@ -67,14 +70,25 @@
   box-shadow: inset -2px -2px 2px black;
 }
 .nav-icon{
-  font-size: 1.5rem;
+  font-size: 1rem;
   
  }
 }
 .label{
   font-size: 1rem;
-  width: 100%;
+  width: 70%;
   font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border-radius: 1.75rem;
+  padding: 6.5px;
+  
+
+ 
+  
+  
 }
 @media(max-width:768px){
  .inner-txt{
@@ -93,13 +107,22 @@
   position: relative;
   right: 4vw;
   width: 4.5rem;
+  left: -1rem;
   
  }
  .label{
   font-size: 0.9rem;
   width: 100%;
   font-weight: 700;
+  margin: 2px;
+  position: relative;
+  
+  padding: 10px;
+  
  
+}
+#label_text{
+ display: none;
 }
 .hr{
   width: 60%;
