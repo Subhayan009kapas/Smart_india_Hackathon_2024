@@ -45,6 +45,7 @@ import Routine from "./components/01_student/routine/Routine";
 import Student_detail from "./components/01_student/student_detail/Student_detail";
 import FeeManagement from "./components/02_university/Accountent/Fees_management";
 import FinancialReport from "./components/02_university/Accountent/Financial_report";
+import AcademicCalendar from "./components/02_university/Calender/Academic_calender";
 
 
 function App() {
@@ -78,6 +79,7 @@ function App() {
           <Route path="view_student" element={<View_student />} />
           <Route path="fee_management" element={<FeeManagement/>} />
           <Route path="financial_report" element={<FinancialReport/>} />
+          <Route path="academic_calender" element={<AcademicCalendar/>} />
 
         </Route>
         {/* university */}

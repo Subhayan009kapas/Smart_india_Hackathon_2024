@@ -273,11 +273,11 @@ function Uni_sidebar() {
           </label>
       
           {calenderSection && (<>
-          <NavLink to="/university/view_course">
+          <NavLink to="/university/academic_calender">
             {" "}
             <p class="ff">
               <FaEye className="nav-icon" />
-              <p className="inner-txt">View Course</p>
+              <p className="inner-txt">Academic Calender</p>
             </p>
           </NavLink>
           <NavLink to="/university/add_course">
