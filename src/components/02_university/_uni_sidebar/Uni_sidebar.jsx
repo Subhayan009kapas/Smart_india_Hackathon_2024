@@ -97,7 +97,7 @@ function Uni_sidebar() {
       <div class="sidenav">
         <div class="imagecontainer">
           <img
-            src="https://i.ibb.co/mSKn62q/university-building.png"
+            src="https://cdn-icons-png.freepik.com/256/8074/8074800.png?semt=ais_hybrid"
             alt="university-building"
             border="0"
           />
@@ -204,22 +204,22 @@ function Uni_sidebar() {
                 style={{ marginRight: "10px" }}
               >
                 <path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM6.02332 15.4163C7.49083 17.6069 9.69511 19 12.1597 19C14.6243 19 16.8286 17.6069 18.2961 15.4163C16.6885 13.9172 14.5312 13 12.1597 13C9.78821 13 7.63095 13.9172 6.02332 15.4163ZM12 11C13.6569 11 15 9.65685 15 8C15 6.34315 13.6569 5 12 5C10.3431 5 9 6.34315 9 8C9 9.65685 10.3431 11 12 11Z"></path>
-              </svg><span id="label_text">Courses</span>
+              </svg><span id="label_text">Acountent</span>
           </label>
         
           {accountentSection && (
             <>
-              <NavLink to="/university/view_course">
+              <NavLink to="/university/fee_management">
                 {" "}
                 <p class="ff">
                   <FaEye className="nav-icon" />
-                  <p className="inner-txt">View Course</p>
+                  <p className="inner-txt">Fees_manage</p>
                 </p>
               </NavLink>
-              <NavLink to="/university/add_course">
+              <NavLink to="/university/financial_report">
                 <p class="ff">
                   <FaPlusCircle className="nav-icon" />
-                  <p className="inner-txt">Add Course</p>
+                  <p className="inner-txt">Financial Report</p>
                 </p>
               </NavLink>
             </>
